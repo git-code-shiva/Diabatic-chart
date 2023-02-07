@@ -1,0 +1,41 @@
+/* form.css */
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #372f2f;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input[type="number"]:focus {
+    border: 2px solid #ed245d;
+  }
+  
+  label {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-left: 10px;
+
+  }
+  
+  @media (max-width: 576px) {
+    input[type="number"] {
+      font-size: 24px;
+    }
+  
+    label {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    h2{
+        font-family: cursive;
+        color: blueviolet;
+    }
+  }
+  
